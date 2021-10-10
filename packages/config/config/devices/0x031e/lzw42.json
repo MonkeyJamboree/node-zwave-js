@@ -26,22 +26,18 @@
 			"description": "This state will be chosen when the power is restored",
 			"valueSize": 1,
 			"minValue": 0,
-			"maxValue": 2,
+			"maxValue": 1,
 			"defaultValue": 0,
 			"unsigned": true,
 			"allowManualEntry": false,
 			"options": [
 				{
-					"label": "Previous state",
+					"label": "Always Power On",
 					"value": 0
 				},
 				{
-					"label": "On",
+					"label": "Previous State",
 					"value": 1
-				},
-				{
-					"label": "Off",
-					"value": 2
 				}
 			]
 		},
